@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto INDEX.HTML</title>
+  <style>
+    body {
+      background-color: #d4ffbf;
+      font-family: sans-serif;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+    }
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .item-menu {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      background-color: #f7f7f7;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .item-menu a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .item-menu a:hover {
+      color: #d4ffbf;
+    }
+    .sessao {
+      margin-top: 20px;
+    }
+    .sessao-titulo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .sessao-conteudo {
+      padding: 10px;
+    }
+    .botao-voltar {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: #f7f7f7;
+      border: 1px solid #336699;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .botao-voltar a {
+      color: black;
+      text-decoration: none;
+    }
+    .botao-voltar a:hover {
+      color: #d4ffbf;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <img src="imagens/header.png" alt="Header" style="width: 100%; height: auto;">
+    <h1>Projeto INDEX.HTML</h1>
+    <nav class="menu">
+      <a href="index.html" class="item-menu">HOME</a>
+      <a href="scrum.html" class="item-menu">SCRUM</a>
+      <a href="cronograma.html" class="item-menu">CRONOGRAMA</a>
+      <a href="html.html" class="item-menu">HTML</a>
+      <a href="links-interessantes.html" class="item-menu">LINKS INTERESSANTES</a>
+    </nav>
+  </header>
+
+  <!-- Sessão sobre o scrum -->
+  <main>
+    <section class="sessao">
+      <h2 class="sessao-titulo">Scrum</h2>
+      <p class="sessao-conteudo">
+        Scrum é um framework ágil de gerenciamento de projetos que se baseia na iteração e na incrementalidade. Ele é usado para gerenciar projetos de software, mas também pode ser usado para gerenciar outros tipos de projetos.
+      </p>
+      <p class="sessao-conteudo">
+        Scrum é baseado em três valores:
+        <ul>
+          <li>Foco no cliente</li>
+          <li>Adaptabilidade</li>
+          <li>Integridade</li>
+        </ul>
+      </p>
+      <p class="sessao-conteudo">
+        Scrum também é baseado em três princípios:
+        <ul>
+          <li>Ao longo de um projeto, o trabalho é dividido em partes menores e mais gerenciáveis, chamadas de sprints.</li>
+          <li>O trabalho é realizado em sprints, que são períodos de tempo curtos e definidos.</li>
+          <li>A equipe Scrum se reúne diariamente para discutir o progresso e planejar o dia seguinte.</li>
+        </ul>
+      </p>
+    </section>
+
+    <!-- Sessão sobre o Scrum Master -->
+    <section class="sessao">
+      <h2 class="sessao-titulo">Scrum Master</h2>
+      <p class="sessao-conteudo">
+        O Scrum Master é um membro da equipe Scrum responsável por garantir que o Scrum seja implementado e seguido de forma eficaz. O Scrum Master é um facilitador, não um gerente, e seu objetivo é ajudar a equipe a ser mais produtiva e eficaz.
+      </p>
+      <p class="sessao-conteudo">
+        As responsabilidades do Scrum Master incluem:
+        <ul>
+          <li>Acompanhar o processo Scrum e garantir que ele seja seguido de forma eficaz.</li>
+          <li>Remover obstáculos que possam impedir a equipe de ser produtiva.</li>
+          <li>Treinar a equipe sobre Scrum e seus princípios.</li>
+          <li>Favorecer a comunicação e a colaboração entre os membros da equipe.</li>
+          <li>Resolver conflitos entre os membros da equipe.</li>
+        </ul>
+      </p>
+      <p class="sessao-conteudo">
+        Para ser um bom Scrum Master, é importante ter um conhecimento profundo do Scrum e seus princípios. Também é importante ser um bom comunicador e um facilitador eficaz.
+      </p>
+    </section>
+
+    <!-- Sessão sobre os papéis do Scrum -->
+    <section class="sessao">
+      <h2 class="sessao-titulo">Papéis do Scrum</h2>
+      <p class="sessao-conteudo">
+        Scrum é um framework ágil de gerenciamento de projetos que se baseia em papéis bem definidos. Os papéis do Scrum são:
+        <ul>
+          <li>Produtor</li>
+          <li>Scrum Master</li>
+          <li>Equipe de desenvolvimento</li>
+        </ul>
+      </p>
+      <p class="sessao-conteudo">
+        O Product Owner é responsável pela visão do produto e pelo sucesso do projeto. O Scrum Master é responsável por garantir que o Scrum seja implementado e seguido de forma eficaz. A equipe de desenvolvimento é responsável por entregar o produto.
+      </p>
+    </section>
+
+    <!-- Sessão sobre o quadro de tarefas -->
+    <section class="sessao">
+      <h2 class="sessao-titulo">Quadro de tarefas</h2>
+      <p class="sessao-conteudo">
+        O quadro de tarefas é uma ferramenta visual usada para acompanhar o progresso do trabalho em um sprint. O quadro de tarefas é dividido em três colunas:
+        <ul>
+          <li>Tarefas a fazer</li>
+          <li>Em andamento</li>
+          <li>Concluído</li>
+        </ul>
+      </p>
+      <p class="sessao-conteudo">
+        As tarefas são adicionadas ao quadro de tarefas na coluna "Tarefas a fazer". À medida que as tarefas são concluídas, elas são movidas para a coluna "Em andamento". Quando uma tarefa é concluída, ela é movida para a coluna "Concluído".
+      </p>
+    </section>
+
+    <!-- Sessão sobre as cerimônias do Scrum -->
+    <section class="sessao">
+      <h2 class="sessao-titulo">Cerimônias do Scrum</h2>
+      <p class="sessao-conteudo">
+        Scrum é um framework ágil de gerenciamento de projetos que se baseia em cerimônias bem definidas. As cerimônias do Scrum são:
+        <ul>
+          <li>Sprint planning</li>
+          <li>Daily Scrum</li>
+          <li>Sprint review</li>
+          <li>Sprint retrospective</li>
+        </ul>
+      </p>
+      <p class="sessao-conteudo">
+        O sprint planning é uma reunião que ocorre no início de cada sprint. O objetivo do sprint planning é definir as tarefas que serão concluídas no sprint.
+      </p>
+      <p class="sessao-conteudo">
+        O daily Scrum é uma reunião que ocorre todos os dias durante um sprint. O objetivo do daily Scrum é compartilhar o progresso e identificar quaisquer obstáculos que possam estar impedindo a equipe de ser produtiva.
+      </p>
+      <p class="sessao-conteudo">
+        A sprint review é uma reunião que ocorre no final de cada sprint. O objetivo da sprint review é demonstrar o trabalho concluído no sprint ao Product Owner e às partes interessadas.
+      </p>
+      <p class="sessao-conteudo">
+        A sprint retrospective é uma reunião que ocorre no final de cada sprint. O objetivo da sprint retrospective é refletir sobre o sprint anterior e identificar áreas de melhoria.
+      </p>
+    </section>
+
+    <!-- Sessão sobre a conclusão -->
+    <section class="sessao">
+      <h2 class="sessao-titulo">Conclusão</h2>
+      <p class="sessao-conteudo">
+        Scrum é uma abordagem poderosa para o gerenciamento de projetos. Ele pode ajudá-lo a entregar projetos de qualidade no prazo e no orçamento. Mas Scrum não é apenas uma ferramenta, é uma mentalidade. É uma maneira de pensar sobre o trabalho e a colaboração.
+      </p>
+      <p class="sessao-conteudo">
+        Agora que você sabe mais sobre Scrum, reflita sobre como você pode aplicar essas ideias à sua própria vida ou carreira. Como você pode se tornar mais produtivo e eficaz? Como você pode melhorar a colaboração com sua equipe?
+      </p>
+      <p class="sessao-conteudo">
+        <a href="index.html" class="botao-voltar">Voltar</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Copyright © 2023 Projeto INDEX.HTML</p>
+  </footer>
+</body>
+</html>
